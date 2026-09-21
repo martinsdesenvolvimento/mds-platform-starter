@@ -30,6 +30,7 @@ It replaces the previous `shared-core-lib` parent POM approach with a proper Spr
 | `spring-token-pattern` | SSO token authentication and management |
 | `spring-security-pattern` | Security filters, CORS, and URL parameter validation |
 | `spring-data-pattern` | Data access abstractions |
+| `spring-liquibase-pattern` | Versioned database migrations with Liquibase |
 | `spring-cache-pattern` | Multi-level caching (Caffeine + Redis) |
 | `spring-crud-pattern` | Base CRUD controllers, services, and entities |
 
@@ -61,7 +62,7 @@ Add the starter to your `pom.xml`:
 </dependency>
 ```
 
-That's it. All 9 included MDS modules are now available in your application.
+That's it. All 10 included MDS modules are now available in your application.
 
 ---
 
